@@ -6,7 +6,7 @@ I will be using "PS:" as an abbreviation for "PS C:\Users\s541931\Documents\Spri
 ## Exercise 1: Digital Forensics
 * Use Get-WinEvent to collect event logs from a remote or local computer. Redirect the output to a text file. 
 
-- PS: Get-WinEvent -ListLog * | Out-File -Path C:\Users\s541931\Documents\Spring2023\DigitalForensics\GithubRepositories\df-mod3-sdm-1\E1_DigitalForensics\Get-WinEvent.txt
+  - PS: Get-WinEvent -ListLog * | Out-File -Path C:\Users\s541931\Documents\Spring2023\DigitalForensics\GithubRepositories\df-mod3-sdm-1\E1_DigitalForensics\Get-WinEvent.txt
 
 * Use Get-Content and Select-String to search for specific text within the generated text file.
 
