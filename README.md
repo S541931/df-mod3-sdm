@@ -19,6 +19,7 @@ PS: Get-WinEvent -LogName System | Where-Object {$_.ID -like '7040'} | Export-Cs
 
 ## Exercise 2: File Systems
 Use the mkdir command to create a new directory at the specified path.
+
 PS: mkdir DemoFile
 Use the copy command to copy a file from the source path to the destination path.
 PS: Copy-Item "C:\Users\s541931\Documents\Spring2023\DigitalForensics\GithubRepositories\df-mod3-sdm-1\E2_FileSystems\DemoFile\mkdir.PNG" -Destination "C:\Users\s541931\Documents\Spring2023\DigitalForensics\GithubRepositories\df-mod3-sdm-1\E2_FileSystems"
