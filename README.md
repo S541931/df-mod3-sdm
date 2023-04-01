@@ -26,7 +26,7 @@ Use the Get-Acl command to retrieve the access control list (ACL) for a file or 
 PS: Get-Acl "C:\Users\s541931\Documents\Spring2023\DigitalForensics\GithubRepositories\df-mod3-sdm-1\E2_FileSystems\DemoFile\mkdir.PNG"
 Use the Export-Csv command to export data to a CSV file.
 PS: Get-Date | Select-Object -Property DateTime, Day, DayOfWeek, DayOfYear |                                                             
->> Export-Csv -Path C:\Users\s541931\Documents\Spring2023\DigitalForensics\GithubRepositories\df-mod3-sdm-1\E2_FileSystems\CvsExport_DateTime.csv -NoTypeInformation
+> > Export-Csv -Path C:\Users\s541931\Documents\Spring2023\DigitalForensics\GithubRepositories\df-mod3-sdm-1\E2_FileSystems\CvsExport_DateTime.csv -NoTypeInformation
 
 ## Exercise 3: Secure Data Management
 Use the ConvertTo-SecureString command to encrypt sensitive data.
